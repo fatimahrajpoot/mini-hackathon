@@ -1,9 +1,7 @@
-log in js
-
 import{auth,
     signInWithEmailAndPassword,
     onAuthStateChanged
-} from './config.js'
+} from './firebase.js'
 
 onAuthStateChanged(auth, (user) => {
     if (user) {
