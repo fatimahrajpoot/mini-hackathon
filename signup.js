@@ -1,6 +1,6 @@
 import{ auth,
     createUserWithEmailAndPassword,
-} from "./config.js"
+} from "./firebase.js"
 
 //CREATE USER WITH EMAIL AND PASSWORD
 
